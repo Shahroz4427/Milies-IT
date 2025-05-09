@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="957" viewBox="0 0 1920 957">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#002c68"></stop>
+      <stop offset="1" stop-color="#004aa0" stop-opacity="0.6"></stop>
+    </linearGradient>
+  </defs>
+  <path id="home-top-wave" d="M0-431V400.7c116.922,52.755,272.558,91.83,442.747,111.156s354.339,18.838,523.862-1.389c163.75-19.538,310.159-56.438,462.714-87.091S1749.937,367.615,1920,374.664V-431Z" transform="translate(0 431)" fill="url(#linear-gradient)"></path>
+</svg>
