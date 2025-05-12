@@ -88,7 +88,6 @@ class TopBannerSectionResource extends Resource
                             ->directory('hero-backgrounds')
                             ->label('Hero Background Image')
                             ->required()
-                            ->rules('mimes:jpeg,png,jpg,gif,svg|max:10240')
                             ->columns(1),
                     ])
                     ->columns(1),

@@ -38,10 +38,9 @@ class LandingPageController extends Controller
             'phone' => 'nullable|regex:/^[0-9+\-\s()]{7,20}$/',
             'company' => 'required|string|max:255',
             'message' => 'required|string|max:1000',
-            'pageId' => 'required|exists:landing_pages,id'  // Ensure the pageId exists in the landing_pages table
+            'pageId' => 'required|exists:landing_pages,id' 
         ]);
     
-        // Create new ContactSubmission and associate it with the pageId (landing_page_id)
         $submission = new ContactSubmission();
         $submission->landing_page_id = $validatedData['pageId'];
         $submission->first_name = $validatedData['firstname'];
